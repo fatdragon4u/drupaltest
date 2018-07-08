@@ -11,6 +11,9 @@ if [ ! -d $config_dir ]; then
 	mkdir $config_dir
 fi
 chown -R www-data:www-data $config_dir
+if [ ! -d "$this_dir/web/sites/default/files" ]; then
+	mkdir "$this_dir/web/sites/default/files"
+fi
 chown -R www-data:www-data "$this_dir/web/sites/default/files"
 find $this_dir -type d -exec chmod g+s {} \;
 echo Done!
