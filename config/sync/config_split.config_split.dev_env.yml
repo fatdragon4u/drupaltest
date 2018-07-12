@@ -1,0 +1,15 @@
+uuid: eaf8df0b-cdf0-4416-9d55-0133e87fa9a9
+langcode: en
+status: false
+dependencies: {  }
+id: dev_env
+label: dev_env
+folder: ../config/dev_env
+module:
+  devel: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
